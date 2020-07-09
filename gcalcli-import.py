@@ -7,14 +7,13 @@ GCALCLI_PATH = "C:\\Users\\Liam\\AppData\\Local\\Programs\\Python\\Python37-32\\
 CALENDAR_NAME = "Liam K."
 
 def show_error(msg):
-    root = tkinter.Tk()
-    root.withdraw()
     messagebox.showerror("Error", msg)
 
 def show_info(msg):
-    root = tkinter.Tk()
-    root.withdraw()
     messagebox.showinfo("Info", msg)
+
+root = tkinter.Tk()
+root.withdraw()
 
 if len(sys.argv) < 2:
     show_error("Missing filename")
