@@ -12,6 +12,7 @@ A set of tools to directly import iCalendar (.ics) files from Thunderbird into G
 ## Installation
 
  1. Use the [Google Calendar API Python Quickstart](https://developers.google.com/calendar/quickstart/python#step_1_turn_on_the) to generate a pair of API credentials to use with gcalcli.
+	 - Click "Enable the Google Calendar API", select "Desktop app" from the dropdown, and hit CREATE.
  2. To configure the default pair of API credentials for gcalcli, run the following command:
     ```
     gcalcli --client_id [ClientID] --client_secret [ClientSecret]
