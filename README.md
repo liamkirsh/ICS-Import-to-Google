@@ -15,4 +15,4 @@ To configure the default pair of API credentials for gcalcli:
 
 To freeze the gcalcli-import script:
 
-    cxfreeze gcacli-import.py
+    cxfreeze gcalcli-import.py
