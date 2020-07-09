@@ -3,6 +3,9 @@ import sys
 import tkinter
 from tkinter import messagebox
 
+GCALCLI_PATH = "C:\\Users\\Liam\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\gcalcli.exe"
+CALENDAR_NAME = "Liam K."
+
 def show_error(msg):
     root = tkinter.Tk()
     root.withdraw()
@@ -18,11 +21,11 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 retval = subprocess.call(
-        ["C:\\Users\\Liam\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\gcalcli.exe",
+        [GCALCLI_PATH,
          "import",
          sys.argv[1],
          "--calendar",
-         'Liam K.']
+         CALENDAR_NAME]
 )
 if retval == 0:
     show_info("Successful import")
