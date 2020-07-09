@@ -3,13 +3,6 @@
 # ICS-Import-to-Google
 A set of tools that enable automatically importing iCalendar (.ics) files from Thunderbird into Google Calendar.
 
-Resources:
-
-
-
-
-**This documentation is under construction.**
-
 ## Prerequisites
 
  - Python 3: https://www.python.org/downloads/
