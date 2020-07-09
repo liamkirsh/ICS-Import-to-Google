@@ -12,7 +12,7 @@ Resources:
 ## Installation
 
  1. Download and configure Python 3 for Windows.
- 2. Download and install [gcalcli](https://github.com/insanum/gcalcli).
+ 2. Download and install [gcalcli](https://github.com/insanum/gcalcli) and [cx_Freeze](https://marcelotduarte.github.io/cx_Freeze/).
  3. Use the [Google Calendar API Python Quickstart](https://developers.google.com/calendar/quickstart/python#step_1_turn_on_the) to generate a pair of API credentials to use with gcalcli.
  4. To configure the default pair of API credentials for gcalcli, run the following command:
     ```
